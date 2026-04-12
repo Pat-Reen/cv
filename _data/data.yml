@@ -43,7 +43,13 @@ career-profile:
         My career spans data strategy, analytics leadership, cloud platform delivery,
         and actuarial roles across life insurance and reinsurance. I have a strong track
         record of accelerating insight delivery — through automation, process overhaul,
-        and applying data science and predictive modelling to inform business decisions.
+        and applying statistical modelling and data science to inform business decisions.
+
+        Outside of work I maintain a personal projects repository covering statistics,
+        coding experiments, and AI topics. I have a practical interest in large language
+        models, RAG (retrieval-augmented generation) architectures, and AI ops — and
+        have implemented RAG-based approaches in a professional context to enhance
+        analytics and knowledge retrieval capabilities.
 
 skills:
     title: Skills &amp; Proficiency
