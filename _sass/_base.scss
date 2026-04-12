@@ -244,6 +244,26 @@ p {
   }
 }
 
+.btn-reveal {
+  background: none;
+  border: 1px solid $text-grey;
+  border-radius: 3px;
+  color: $text-color-secondary;
+  font-size: 13px;
+  padding: 4px 10px;
+  cursor: pointer;
+  &:hover {
+    border-color: $theme-color;
+    color: $theme-color;
+  }
+  .fa-lock { margin-right: 4px; }
+}
+
+.revealed-details {
+  li { margin-bottom: 6px; font-size: 13px; }
+  a { color: $text-color-secondary; }
+}
+
 .skillset {
   .skill-group {
     margin-bottom: 1.2em;

@@ -10,6 +10,10 @@ sidebar:
     tagline: Data Strategy | Cloud Platforms | Analytics | Statistics | AI
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+    # Encoded contact details (base64) - run: python -c "import base64; print(base64.b64encode(b'your detail here').decode())"
+    contact_email_enc: "cGF0cmlja3JlZW5AZ21haWwuY29t"
+    contact_phone_enc: "MDQwNTIyODk0NQ=="
+
     # Sidebar links
     citizenship: Australian
     website: pat-reen.github.io/more-modelling-recipes/ #do not add http://
