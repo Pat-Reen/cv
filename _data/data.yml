@@ -37,22 +37,17 @@ sidebar:
 career-profile:
     title: Overview
     summary: |
-        I have 17 years’ experience in large financial services businesses,
-        combining actuarial expertise with data strategy and modern platform delivery.
-        In my current role I lead ClearView’s enterprise data and analytics capability,
-        having transformed the organisation’s legacy architecture into a cloud-based
-        data platform using Microsoft Fabric on Azure.
+        I have 17 years’ experience in financial services combining actuarial expertise,
+        data strategy, and applied AI engineering. In my current role I lead ClearView’s
+        enterprise data and analytics capability, having transformed the organisation’s
+        legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure.
+        My career spans data strategy, analytics leadership, cloud platform delivery, and
+        actuarial roles across life insurance and reinsurance.
 
-        My career spans data strategy, analytics leadership, cloud platform delivery,
-        and actuarial roles across life insurance and reinsurance. I have a strong track
-        record of accelerating insight delivery — through automation, process overhaul,
-        and applying statistical modelling and data science to inform business decisions.
-
-        Outside of work I maintain a personal projects repository covering statistics,
-        coding experiments, and AI topics. I have a practical interest in large language
-        models, RAG (retrieval-augmented generation) architectures, and AI ops — and
-        have implemented RAG-based approaches in a professional context to enhance
-        analytics and knowledge retrieval capabilities.
+        I have built two production-grade AI systems independently - a RAG tool over
+        insurance Product Disclosure Statements deployed on GCP, and an AFSL-compliant
+        financial advice application - both grounded in financial services and directly
+        applicable to regulated enterprise contexts.
 
 skills:
     title: Skills &amp; Proficiency
@@ -62,10 +57,13 @@ skills:
         items:
           - Microsoft Fabric
           - Azure (Synapse, Data Factory)
+          - GCP (Cloud Run, Firestore, Cloud Build)
           - Databricks
           - SQL / SSIS
           - Python
-          - Claude API / LLM development
+          - FastAPI
+          - Claude API | RAG | LLMOps
+          - RAG / vector search
 
       - title: Analytics & Visualisation
         items:
@@ -83,7 +81,7 @@ skills:
 
 experiences:
     - role: Head of Portfolio Insights
-      time: Aug 2023 – Present
+      time: Aug 2023 - Present
       company: ClearView Wealth Limited, Australia
       details: |
         Reporting to General Executive, Product & Pricing
@@ -97,9 +95,10 @@ experiences:
           - Developed analytics across distribution (adviser segmentation), pricing (competitive benchmarking), finance, operations, and regulatory reporting.
           - Established governance structures including a Data Forum and Data Champions network.
           - Delivered executive reporting and actionable portfolio insights to the Executive Leadership Team.
+          - Applied Claude Code to trace complex legacy ETL dependencies, enabling a small team to accelerate month-end reporting migration.
 
     - role: Pricing and Analytics Consultant
-      time: Sep 2022 – Aug 2023
+      time: Sep 2022 - Aug 2023
       company: Munich Reinsurance, Australia (MRA)
       details: |
         Reporting to Head of Group Insurance (HoGI)
@@ -117,7 +116,7 @@ experiences:
           - Collaborated with the project manager to develop a change control and training plans for the team.    
 
     - role: Deputy Appointed Actuary
-      time: Oct 2020 – Feb 2022
+      time: Oct 2020 - Feb 2022
       company: Westpac Life Insurance Services Limited, Australia 
       details: |
         Reporting to Appointed Actuary 
@@ -140,7 +139,7 @@ experiences:
           - Managed and developed a cross-functional team including offshore members.
 
     - role: Head of Business Finance
-      time: Feb 2019 – Sep 2020
+      time: Feb 2019 - Sep 2020
       company: Reinsurance Group of America, Australia (RGAA)
       details: |
         Reporting to the Chief Financial Officer (CFO) 
@@ -164,7 +163,7 @@ experiences:
             management and local and parent Board / Board Committees.
 
     - role: Deputy Chief Valuation Actuary, Previously 2IC
-      time: May 2016 – Jan 2019
+      time: May 2016 - Jan 2019
       company: Reinsurance Group of America, Australia (RGAA)
       details: |
         Reporting to the Appointed Actuary
@@ -177,7 +176,7 @@ experiences:
           - Championed 1st line of defence improvements; led cross-functional knowledge sharing and team development initiatives.
 
     - role: Research Actuary
-      time: May 2014 – Apr 2016
+      time: May 2014 - Apr 2016
       company: Reinsurance Group of America, Australia (RGAA)
       details: |
         Reporting to the Head of Research/ CRO 
@@ -185,7 +184,7 @@ experiences:
         **Key achievement:** Increased the frequency and granularity of data analysis to reflect rapidly evolving experience.
 
     - role: Corporate Actuary/ Actuarial Specialist
-      time: Jan 2009 – Apr 2014
+      time: Jan 2009 - Apr 2014
       company: MMI - Metropolitan, South Africa
       details: |
         Reporting to the Appointed Actuary 
@@ -205,8 +204,14 @@ education:
       time: 2008
 
 projects:
-    title: Industry contributions
+    title: Projects & Contributions
     assignments:
+      - title: PDS RAG Bot
+        link:
+        tagline: "Production-grade RAG system over insurance Product Disclosure Statements. Hybrid BM25 + semantic retrieval with RRF fusion, Voyage AI reranking, HyDE, CRAG-lite query rewriting, and citation grounding. Deployed to GCP Cloud Run with CI/CD via Cloud Build and Firestore audit logging."
+      - title: Financial Advice App
+        link:
+        tagline: "LLM-powered tool supporting financial advisers within an AFSL compliance framework. Deterministic/AI separation architecture, Tier 1/2 gating, SOA generation, SSE streaming, and AFSL/RG146 guardrails. 4,200 lines Python, 224 tests."
       - title: Actuaries Analytical Cookbook
         link: "https://actuariesinstitute.github.io/cookbook/docs/index.html"
         tagline: "Created and supported a cookbook of data and analytics recipes, a resource to actuaries."
