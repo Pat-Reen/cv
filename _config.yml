@@ -2,8 +2,8 @@
 
 # Site Settings
 title: Pat Reen CV
-image: assets/images/preview.svg
-description: Financial Services Professional, Actuary and Data Scientist
+image: assets/images/preview.png
+description: "Data Strategy | Cloud Platforms | Analytics | Statistics | AI"
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
