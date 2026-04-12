@@ -7,7 +7,7 @@ sidebar:
 
     # Profile information
     name: CV, Pat Reen
-    tagline: Financial services professional | Data Actuary 
+    tagline: Head of Data & Analytics | Financial Services
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -34,41 +34,63 @@ sidebar:
 career-profile:
     title: Overview
     summary: |
-        I have 14 years’ experience in large multinational financial 
-        services businesses focusing on management information, data science, 
-        financial analysis and process improvement. In my most recent roles I have 
-        consulted on process improvement and have led teams in measuring and reporting 
-        on business performance, providing actionable insights from the analysis 
-        of financial and operational data. 
-        
-        I have extensive experience in process overhaul	and using data analytics 
-        and predictive modelling to inform business decisions.
+        I have 17 years’ experience in large financial services businesses,
+        combining actuarial expertise with data strategy and modern platform delivery.
+        In my current role I lead ClearView’s enterprise data and analytics capability,
+        having transformed the organisation’s legacy architecture into a cloud-based
+        data platform using Microsoft Fabric on Azure.
+
+        My career spans data strategy, analytics leadership, cloud platform delivery,
+        and actuarial roles across life insurance and reinsurance. I have a strong track
+        record of accelerating insight delivery — through automation, process overhaul,
+        and applying data science and predictive modelling to inform business decisions.
 
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Tableau, PowerBI 
-        level: 95%
+    groups:
+      - title: Data Platforms & Engineering
+        items:
+          - Microsoft Fabric
+          - Azure (Synapse, Data Factory)
+          - Databricks
+          - SQL / SSIS
+          - Python
+          - Claude API / LLM development
 
-      - name: Alteryx
-        level: 95%
+      - title: Analytics & Visualisation
+        items:
+          - Tableau
+          - Power BI
+          - Alteryx
+          - R
 
-      - name: SQL, SSIS
-        level: 95%
-
-      - name: R
-        level: 95%
-
-      - name: Python
-        level: 70%
-
-      - name: Databricks
-        level: 60%
+      - title: Actuarial & Finance
+        items:
+          - Pricing & reserving
+          - Experience analysis
+          - AIFRS / APRA reporting
+          - Prophet / FIS
 
 experiences:
+    - role: Head of Portfolio Insights
+      time: Aug 2023 – Present
+      company: ClearView Wealth Limited, Australia
+      details: |
+        Reporting to General Executive, Product & Pricing
+
+        **Key achievement:** Led end-to-end transformation of legacy data architecture into a modern cloud data platform using Microsoft Fabric on Azure, delivering enterprise analytics capabilities across distribution, pricing, finance, operations and regulatory reporting.
+
+          - Owned and executed the enterprise Data Strategy aligned with ClearView's broader business strategy.
+          - Led delivery of an Azure-based modern data platform using Microsoft Fabric, replacing legacy on-premises architecture.
+          - Established enterprise data ingestion, transformation, and analytics capabilities including orchestration pipelines, notebooks, DevOps/CI-CD, and infrastructure-as-code.
+          - Delivered Salesforce data integration enabling improved distribution and adviser insights.
+          - Developed analytics across distribution (adviser segmentation), pricing (competitive benchmarking), finance, operations, and regulatory reporting.
+          - Established governance structures including a Data Forum and Data Champions network.
+          - Delivered executive reporting and actionable portfolio insights to the Executive Leadership Team.
+
     - role: Pricing and Analytics Consultant
-      time: Sep 2022 - Present
+      time: Sep 2022 – Aug 2023
       company: Munich Reinsurance, Australia (MRA)
       details: |
         Reporting to Head of Group Insurance (HoGI)

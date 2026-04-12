@@ -50,15 +50,9 @@
        display: none;
     }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+    .skill-tag {
+      background: none;
+      border-color: #888;
     }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
 
 }

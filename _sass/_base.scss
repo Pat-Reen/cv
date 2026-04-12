@@ -245,22 +245,31 @@ p {
 }
 
 .skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
+  .skill-group {
+    margin-bottom: 1.2em;
   }
-  .level-title {
-    font-size: 14px;
+  .skill-group-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-color-secondary;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 0;
   }
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
+  .skill-tag {
+    display: inline-block;
+    border: 1px solid lighten($theme-color, 25%);
+    border-radius: 3px;
+    padding: 2px 9px;
+    font-size: 13px;
+    color: $text-color;
+    background: lighten($theme-color, 45%);
   }
 }
 
