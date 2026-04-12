@@ -25,10 +25,13 @@ sidebar:
       - item: Reporting, visualization
         link:
 
-      - item: Automation
+      - item: Automation, process improvement
         link:
 
       - item: Advanced analytics
+        link:
+
+      - item: AI
         link:
 
 career-profile:
