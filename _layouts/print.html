@@ -31,5 +31,10 @@
       <div class="main-wrapper">{{ content }}</div>
     </div>
     {% include scripts.html %}
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() { window.print(); }, 500);
+      });
+    </script>
   </body>
 </html>
