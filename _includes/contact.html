@@ -81,7 +81,7 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-print"></i>
-      <a href="{{ sidebar.pdf | relative_url }}" target="_blank">Print / Save PDF</a>
+      <a href="{{ sidebar.pdf | relative_url }}" onclick="event.preventDefault(); var w=window.open('{{ sidebar.pdf | relative_url }}','_blank','width=800,height=600'); w.focus();">Print / Save PDF</a>
     </li>
     {% endif %}
 
