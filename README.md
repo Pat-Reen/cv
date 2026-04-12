@@ -4,17 +4,17 @@ Web-format CV built with Jekyll, deployed via GitHub Pages.
 
 ## Local development
 
-Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+Requires Ruby ([rubyinstaller.org](https://rubyinstaller.org/downloads/) on Windows — download the **Ruby+Devkit** version).
 
 ```bash
-docker compose up
+gem install bundler
+bundle install
+bundle exec jekyll serve
 ```
 
 Then open:
 - `http://localhost:4000` — web view
-- `http://localhost:4000/print` — print/PDF view
-
-Jekyll watches for file changes and rebuilds automatically. Stop with `Ctrl+C`.
+- `http://localhost:4000/print` — print/PDF view (auto-triggers browser print dialog)
 
 ## Updating content
 
@@ -23,18 +23,27 @@ All CV content lives in a single file: `_data/data.yml`
 | Section | Key |
 |---------|-----|
 | Name, tagline, contact links | `sidebar` |
+| Encoded contact details (email + phone) | `sidebar.contact_email_enc` / `sidebar.contact_phone_enc` |
 | Overview paragraph | `career-profile.summary` |
 | Skills (grouped tags) | `skills.groups` |
 | Work history | `experiences` |
 | Education | `education` |
 | Industry contributions | `projects` |
 
+### Updating encoded contact details
+
+Contact details are base64-encoded to keep them off search engine crawls.
+To generate a new encoded value:
+
+```bash
+python -c "import base64; print(base64.b64encode(b'your value here').decode())"
+```
+
+Paste the output into `sidebar.contact_email_enc` or `sidebar.contact_phone_enc` in `data.yml`.
+
 ## Generating the PDF
 
-1. Run locally (see above) or push to GitHub Pages
-2. Go to [webtopdf.com](https://webtopdf.com/) and convert the `/print` URL to PDF
-3. Save the output as `assets/images/pat-reen-CV-print.pdf`
-4. Commit the updated PDF
+The "Print / Save PDF" button in the sidebar opens `/print`, which automatically triggers the browser print dialog. Use **Save as PDF** as the destination.
 
 ## Structure
 
@@ -42,11 +51,12 @@ All CV content lives in a single file: `_data/data.yml`
 _data/data.yml          # All CV content (edit this)
 _includes/              # HTML components (sidebar, experiences, skills, etc.)
 _layouts/               # Page layouts (default = web, print = PDF view)
-_sass/                  # Stylesheets
+_sass/
   _base.scss            # Core styles
   _print.scss           # Print media overrides
-  skins/                # Colour themes (set in _config.yml → theme_skin)
-assets/images/          # Profile photo + generated PDF
+  _responsive.scss      # Responsive breakpoints
+  skins/                # Colour themes (set via theme_skin in _config.yml)
+assets/images/          # Profile photo, preview image (PNG + SVG source)
 ```
 
 ## Credits

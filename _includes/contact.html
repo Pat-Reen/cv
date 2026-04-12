@@ -1,18 +1,6 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.phone %}
-    <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
       <a href="">{{ sidebar.citizenship }}</a>
