@@ -246,23 +246,32 @@ p {
 
 .btn-reveal {
   background: none;
-  border: 1px solid rgba(255,255,255,0.4);
+  border: 1px solid $text-grey;
   border-radius: 3px;
-  color: rgba(255,255,255,0.75);
+  color: $text-color-secondary;
   font-size: 13px;
   padding: 4px 10px;
   cursor: pointer;
-  &:hover {
-    border-color: rgba(255,255,255,0.8);
-    color: #fff;
-  }
   .fa-lock { margin-right: 4px; }
 }
 
 .revealed-details {
   li { margin-bottom: 6px; font-size: 13px; }
-  a { color: rgba(255,255,255,0.75);
-    &:hover { color: #fff; }
+}
+
+.sidebar-wrapper {
+  .btn-reveal {
+    border-color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.75);
+    &:hover {
+      border-color: rgba(255,255,255,0.8);
+      color: #fff;
+    }
+  }
+  .revealed-details {
+    a { color: rgba(255,255,255,0.75);
+      &:hover { color: #fff; }
+    }
   }
 }
 
