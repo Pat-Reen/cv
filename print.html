@@ -7,6 +7,9 @@ permalink: /print
 window.addEventListener('load', function() {
   setTimeout(window.print, 500);
 });
+window.addEventListener('afterprint', function() {
+  window.close();
+});
 </script>
 
 {% include contact_print.html %}
