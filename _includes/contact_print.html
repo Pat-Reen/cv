@@ -1,5 +1,5 @@
 <div class="contact-container container-block">
-  
+
   <div class="profile-container">
     {% if site.data.data.sidebar.name %}
       <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
@@ -10,12 +10,22 @@
     {% endif %}
   </div>
 
-  <ul class="list-unstyled contact-list">
-    {% if site.data.data.sidebar.email %}
-      <li class="email"><i class="fas fa-envelope"></i><span class="contact-text">{{ site.data.data.sidebar.email }}</span></li>
-    {% endif %}
-    {% if site.data.data.sidebar.phone %}
-      <li class="phone"><i class="fas fa-phone"></i><span class="contact-text">{{ site.data.data.sidebar.phone }}</span></li>
-    {% endif %}
+  <ul class="list-unstyled contact-list" id="print-contact-list">
   </ul>
 </div><!--//contact-container-->
+
+<script>
+(function() {
+  var list = document.getElementById('print-contact-list');
+  var enc_email = "{{ site.data.data.sidebar.contact_email_enc }}";
+  var enc_phone = "{{ site.data.data.sidebar.contact_phone_enc }}";
+  if (enc_email) {
+    var email = atob(enc_email);
+    list.innerHTML += '<li class="email"><i class="fas fa-envelope"></i><span class="contact-text">' + email + '</span></li>';
+  }
+  if (enc_phone) {
+    var phone = atob(enc_phone);
+    list.innerHTML += '<li class="phone"><i class="fas fa-phone"></i><span class="contact-text">' + phone + '</span></li>';
+  }
+})();
+</script>

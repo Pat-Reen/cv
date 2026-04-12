@@ -246,22 +246,24 @@ p {
 
 .btn-reveal {
   background: none;
-  border: 1px solid $text-grey;
+  border: 1px solid rgba(255,255,255,0.4);
   border-radius: 3px;
-  color: $text-color-secondary;
+  color: rgba(255,255,255,0.75);
   font-size: 13px;
   padding: 4px 10px;
   cursor: pointer;
   &:hover {
-    border-color: $theme-color;
-    color: $theme-color;
+    border-color: rgba(255,255,255,0.8);
+    color: #fff;
   }
   .fa-lock { margin-right: 4px; }
 }
 
 .revealed-details {
   li { margin-bottom: 6px; font-size: 13px; }
-  a { color: $text-color-secondary; }
+  a { color: rgba(255,255,255,0.75);
+    &:hover { color: #fff; }
+  }
 }
 
 .skillset {
