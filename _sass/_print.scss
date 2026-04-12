@@ -28,7 +28,7 @@
     .contact-container .contact-list .fas,
     .contact-container .contact-list .fab,
     .contact-container .contact-list .far {
-      display: none;
+      margin-right: 12px;
     }
  
    .wrapper {
@@ -62,8 +62,7 @@
     }
 
     .section-title .fa-stack {
-      -webkit-print-color-adjust: exact;
-      print-color-adjust: exact;
+      display: none;
     }
 
 }
