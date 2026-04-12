@@ -273,6 +273,7 @@ p {
     a { color: rgba(255,255,255,0.75);
       &:hover { color: #fff; }
     }
+    .fas, .fab, .far { margin-right: 10px; }
   }
 }
 
