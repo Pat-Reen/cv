@@ -37,17 +37,9 @@ sidebar:
 career-profile:
     title: Overview
     summary: |
-        I have 17 years’ experience in financial services combining actuarial expertise,
-        data strategy, and applied AI engineering. In my current role I lead ClearView’s
-        enterprise data and analytics capability, having transformed the organisation’s
-        legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure.
-        My career spans data strategy, analytics leadership, cloud platform delivery, and
-        actuarial roles across life insurance and reinsurance.
+        My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. From the Head of Business Finance role at RGA onward, my focus shifted from pure actuarial work toward data and analytics leadership - a profile that extends beyond financial services.
 
-        I have built two production-grade AI systems independently - a RAG tool over
-        insurance Product Disclosure Statements deployed on GCP, and an AFSL-compliant
-        financial advice application - both grounded in financial services and directly
-        applicable to regulated enterprise contexts.
+        I have independently built two production-grade AI systems outside of work - a RAG tool over insurance Product Disclosure Statements on GCP and an AFSL-compliant financial advice application - both designed in collaboration with distribution and product professionals, developing hands-on depth in LLM engineering and LLMOps.
 
 skills:
     title: Skills &amp; Proficiency
@@ -103,17 +95,17 @@ experiences:
       details: |
         Reporting to Head of Group Insurance (HoGI)
 
-        **Key achievement:** Complete overhaul of pricing result visualisations. Significant enhancements to assumption setting processes.
+        **Key achievement:** Complete overhaul of pricing result visualisations and assumption setting processes, delivered on Databricks.
 
-          - In this role I consulted on the redesign of group pricing processes with a view to improving efficiency and capabilities, 
-            increasing the level of result granularity, reducing operational risk and upskilling the team. 
+          - In this role I consulted on the redesign of group pricing processes with a view to improving efficiency and capabilities,
+            increasing the level of result granularity, reducing operational risk and upskilling the team.
           - Translated business needs into technical requirements and led the viability assessment of proposed software solutions.
           - Collaborated with the HoGI and head of group pricing (HoGP) to define a target state and project plans. Supported stakeholder communication of same.
-          - Engaged with support areas to clear a path for success e.g. group enterprise architecture, 
+          - Engaged with support areas to clear a path for success e.g. group enterprise architecture,
             external software providers.
           - Devised and led the sprint plan.
-          - Designed results visualisations and applied alternative models to assumptions setting processes through live pricing exercises.
-          - Collaborated with the project manager to develop a change control and training plans for the team.    
+          - Designed pricing result visualisations and enhanced assumption setting processes through live pricing exercises, delivering the full solution on Databricks.
+          - Collaborated with the project manager to develop a change control and training plans for the team.
 
     - role: Deputy Appointed Actuary
       time: Oct 2020 - Feb 2022
@@ -208,13 +200,13 @@ projects:
     assignments:
       - title: PDS RAG Bot
         link:
-        tagline: "Production-grade RAG system over insurance Product Disclosure Statements. Hybrid BM25 + semantic retrieval with RRF fusion, Voyage AI reranking, HyDE, CRAG-lite query rewriting, and citation grounding. Deployed to GCP Cloud Run with CI/CD via Cloud Build and Firestore audit logging."
+        tagline: "RAG system enabling advisers to query insurance Product Disclosure Statements in natural language. Designed with distribution professionals; built on GCP Cloud Run with hybrid retrieval, reranking, and citation grounding."
       - title: Financial Advice App
         link:
-        tagline: "LLM-powered tool supporting financial advisers within an AFSL compliance framework. Deterministic/AI separation architecture, Tier 1/2 gating, SOA generation, SSE streaming, and AFSL/RG146 guardrails. 4,200 lines Python, 224 tests."
+        tagline: "LLM tool supporting financial advisers within an AFSL compliance framework, designed with product and compliance stakeholders. Deterministic/AI separation architecture with Tier 1/2 gating, SOA generation, and RG146 guardrails."
       - title: Actuaries Analytical Cookbook
         link: "https://actuariesinstitute.github.io/cookbook/docs/index.html"
-        tagline: "Created and supported a cookbook of data and analytics recipes, a resource to actuaries."
+        tagline: "Created and maintain a practical reference for actuaries covering Python and R recipes, data analytics techniques, and machine learning methods."
       - title: Information Note, Analysing Disability Income Experience
         link: "https://www.actuaries.asn.au/Library/Standards/LifeInsuranceWealth/2021/IN%20Analysing%20Disability%20Income%20Experience%20and%20Setting%20Best%20Estimate%20Assumptions%20September%202021.pdf"
         tagline: "Contributed to information note on setting pricing and reserving assumptions for future claims experience."
