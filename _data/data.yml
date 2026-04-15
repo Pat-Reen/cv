@@ -39,7 +39,7 @@ career-profile:
     summary: |
         My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. From the Head of Business Finance role at RGA onward, my focus shifted from pure actuarial work toward data and analytics leadership - a profile that extends beyond financial services.
 
-        I have independently built two production-grade AI systems outside of work - a RAG tool over insurance Product Disclosure Statements on GCP and an AFSL-compliant financial advice application - developing hands-on depth in LLM engineering and LLMOps.
+        I have independently built two production-grade AI systems outside of work - a RAG tool over insurance Product Disclosure Statements on GCP and an AFSL-compliant financial advice application - both designed in collaboration with distribution and product professionals, developing hands-on depth in LLM engineering and LLMOps.
 
 skills:
     title: Skills &amp; Proficiency
