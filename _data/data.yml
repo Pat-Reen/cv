@@ -206,7 +206,7 @@ projects:
         tagline: "LLM-powered tool supporting financial advisers within an AFSL compliance framework. Deterministic/AI separation architecture, Tier 1/2 gating, SOA generation, SSE streaming, and AFSL/RG146 guardrails. 4,200 lines Python, 224 tests."
       - title: Actuaries Analytical Cookbook
         link: "https://actuariesinstitute.github.io/cookbook/docs/index.html"
-        tagline: "Created and supported a cookbook of data and analytics recipes, a resource to actuaries."
+        tagline: "Created and maintain a practical reference for actuaries covering Python and R recipes, data analytics techniques, and machine learning methods."
       - title: Information Note, Analysing Disability Income Experience
         link: "https://www.actuaries.asn.au/Library/Standards/LifeInsuranceWealth/2021/IN%20Analysing%20Disability%20Income%20Experience%20and%20Setting%20Best%20Estimate%20Assumptions%20September%202021.pdf"
         tagline: "Contributed to information note on setting pricing and reserving assumptions for future claims experience."
