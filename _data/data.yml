@@ -53,9 +53,7 @@ skills:
           - Databricks
           - SQL / SSIS
           - Python
-          - FastAPI
           - Claude API | RAG | LLMOps
-          - RAG / vector search
 
       - title: Analytics & Visualisation
         items:
@@ -68,8 +66,8 @@ skills:
         items:
           - Pricing & reserving
           - Experience analysis
+          - Valuations
           - AIFRS / APRA reporting
-          - Prophet / FIS
 
 experiences:
     - role: Head of Portfolio Insights
