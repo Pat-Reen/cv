@@ -87,7 +87,8 @@ experiences:
           - Developed analytics across distribution (adviser segmentation), pricing (competitive benchmarking), finance, operations, and regulatory reporting.
           - Established governance structures including a Data Forum and Data Champions network.
           - Delivered executive reporting and actionable portfolio insights to the Executive Leadership Team.
-          - Applied Claude Code to trace complex legacy ETL dependencies, enabling a small team to accelerate month-end reporting migration.
+          - Championed AI tooling adoption across the data function, embedding GitHub Copilot and Claude Code into engineering workflows and supporting the team in building business-facing agents using Copilot Agent Builder.
+          - Provided data infrastructure and analytics support for a cross-functional ML project modelling customer retention.
 
     - role: Pricing and Analytics Consultant
       time: Sep 2022 - Aug 2023
