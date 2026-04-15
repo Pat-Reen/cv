@@ -37,11 +37,9 @@ sidebar:
 career-profile:
     title: Overview
     summary: |
-        My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. Since taking the Head of Business Finance role at RGA, my focus has shifted progressively from pure actuarial practice toward data and analytics leadership - a trajectory that applies as readily to data-intensive industries beyond financial services as within it.
+        My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. From the Head of Business Finance role at RGA onward, my focus shifted from pure actuarial work toward data and analytics leadership - a profile that extends beyond financial services.
 
-        The AI projects below are independent, built outside of work to develop hands-on depth in LLM engineering and LLMOps - spanning retrieval design, cloud deployment, evaluation, and observability.
-
-        I have built two production-grade AI systems independently - a RAG tool over insurance Product Disclosure Statements deployed on GCP, and an AFSL-compliant financial advice application - both grounded in financial services and directly applicable to regulated enterprise contexts.
+        I have independently built two production-grade AI systems outside of work - a RAG tool over insurance Product Disclosure Statements on GCP and an AFSL-compliant financial advice application - developing hands-on depth in LLM engineering and LLMOps.
 
 skills:
     title: Skills &amp; Proficiency
@@ -106,7 +104,7 @@ experiences:
           - Engaged with support areas to clear a path for success e.g. group enterprise architecture,
             external software providers.
           - Devised and led the sprint plan.
-          - Designed results visualisations and applied alternative models to assumptions setting processes through live pricing exercises; delivered the full solution on Databricks, building hands-on capability across data pipelines, notebooks, and interactive analytics.
+          - Designed pricing result visualisations and enhanced assumption setting processes through live pricing exercises, delivering the full solution on Databricks.
           - Collaborated with the project manager to develop a change control and training plans for the team.
 
     - role: Deputy Appointed Actuary
