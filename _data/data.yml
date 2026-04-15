@@ -37,17 +37,11 @@ sidebar:
 career-profile:
     title: Overview
     summary: |
-        I have 17 years’ experience in financial services combining actuarial expertise,
-        data strategy, and applied AI engineering. In my current role I lead ClearView’s
-        enterprise data and analytics capability, having transformed the organisation’s
-        legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure.
-        My career spans data strategy, analytics leadership, cloud platform delivery, and
-        actuarial roles across life insurance and reinsurance.
+        My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. Since taking the Head of Business Finance role at RGA, my focus has shifted progressively from pure actuarial practice toward data and analytics leadership - a trajectory that applies as readily to data-intensive industries beyond financial services as within it.
 
-        I have built two production-grade AI systems independently - a RAG tool over
-        insurance Product Disclosure Statements deployed on GCP, and an AFSL-compliant
-        financial advice application - both grounded in financial services and directly
-        applicable to regulated enterprise contexts.
+        The AI projects below are independent, built outside of work to develop hands-on depth in LLM engineering and LLMOps - spanning retrieval design, cloud deployment, evaluation, and observability.
+
+        I have built two production-grade AI systems independently - a RAG tool over insurance Product Disclosure Statements deployed on GCP, and an AFSL-compliant financial advice application - both grounded in financial services and directly applicable to regulated enterprise contexts.
 
 skills:
     title: Skills &amp; Proficiency
@@ -103,17 +97,17 @@ experiences:
       details: |
         Reporting to Head of Group Insurance (HoGI)
 
-        **Key achievement:** Complete overhaul of pricing result visualisations. Significant enhancements to assumption setting processes.
+        **Key achievement:** Complete overhaul of pricing result visualisations and assumption setting processes, delivered on Databricks.
 
-          - In this role I consulted on the redesign of group pricing processes with a view to improving efficiency and capabilities, 
-            increasing the level of result granularity, reducing operational risk and upskilling the team. 
+          - In this role I consulted on the redesign of group pricing processes with a view to improving efficiency and capabilities,
+            increasing the level of result granularity, reducing operational risk and upskilling the team.
           - Translated business needs into technical requirements and led the viability assessment of proposed software solutions.
           - Collaborated with the HoGI and head of group pricing (HoGP) to define a target state and project plans. Supported stakeholder communication of same.
-          - Engaged with support areas to clear a path for success e.g. group enterprise architecture, 
+          - Engaged with support areas to clear a path for success e.g. group enterprise architecture,
             external software providers.
           - Devised and led the sprint plan.
-          - Designed results visualisations and applied alternative models to assumptions setting processes through live pricing exercises.
-          - Collaborated with the project manager to develop a change control and training plans for the team.    
+          - Designed results visualisations and applied alternative models to assumptions setting processes through live pricing exercises; delivered the full solution on Databricks, building hands-on capability across data pipelines, notebooks, and interactive analytics.
+          - Collaborated with the project manager to develop a change control and training plans for the team.
 
     - role: Deputy Appointed Actuary
       time: Oct 2020 - Feb 2022
