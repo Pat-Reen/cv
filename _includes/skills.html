@@ -23,6 +23,16 @@
     </div>
     {% endfor %}
 
+    {% if skills.credentials %}
+    <div class="credentials-row">
+      {% for cred in skills.credentials %}
+      <a href="{{ cred.link }}" target="_blank" rel="noopener" title="{{ cred.name }}">
+        <img src="{{ site.baseurl }}/assets/images/{{ cred.badge }}" alt="{{ cred.name }}" class="credential-badge" />
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
 
 </section><!--//skills-section-->

@@ -15,16 +15,6 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-    {% if sidebar.credentials %}
-    <div class="credentials-container">
-      {% for cred in sidebar.credentials %}
-      <a href="{{ cred.link }}" target="_blank" rel="noopener" title="{{ cred.name }}">
-        <img src="{{ site.baseurl }}/assets/images/{{ cred.badge }}" alt="{{ cred.name }}" class="credential-badge" />
-      </a>
-      {% endfor %}
-    </div>
-    {% endif %}
-
   </div><!--//profile-container-->
 
   {% include contact.html %}

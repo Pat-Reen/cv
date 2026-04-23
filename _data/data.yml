@@ -21,11 +21,6 @@ sidebar:
     github: Pat-Reen
     pdf: /print
 
-    credentials:
-      - name: Microsoft Certified: Azure Data Engineer Associate
-        badge: ms-certified-associate.svg
-        link: "https://learn.microsoft.com/api/credentials/share/en-au/PatReen-5200/4C3CEC09CD59A144?sharingId=345630E6354F735"
-
     interests:
       - item: Data strategy, management
         link:
@@ -48,6 +43,11 @@ career-profile:
 
 skills:
     title: Skills &amp; Proficiency
+
+    credentials:
+      - name: "Microsoft Certified: Azure Data Engineer Associate"
+        badge: ms-certified-associate.svg
+        link: "https://learn.microsoft.com/api/credentials/share/en-au/PatReen-5200/4C3CEC09CD59A144?sharingId=345630E6354F735"
 
     groups:
       - title: Data Platforms & Engineering
