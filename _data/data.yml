@@ -52,7 +52,7 @@ skills:
     groups:
       - title: Data Platforms & Engineering
         items:
-          - Microsoft Fabric
+          - Microsoft Fabric Certified
           - Azure (Synapse, Data Factory)
           - GCP (Cloud Run, Firestore, Cloud Build)
           - Databricks
