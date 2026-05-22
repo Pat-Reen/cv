@@ -38,9 +38,6 @@ career-profile:
     title: Overview
     summary: |
         My career spans data strategy, analytics leadership, cloud platform delivery, and actuarial roles across life insurance and reinsurance. In my current role I lead ClearView’s enterprise data and analytics capability, having transformed the organisation’s legacy architecture into a cloud-based data platform using Microsoft Fabric on Azure. From the Head of Business Finance role at RGA onward, my focus shifted from pure actuarial work toward data and analytics leadership - a profile that extends beyond financial services.
-
-        I have independently built two production-grade AI systems outside of work - a RAG tool over insurance Product Disclosure Statements on GCP and an AFSL-compliant financial advice application - both designed in collaboration with distribution and product professionals, developing hands-on depth in LLM engineering and LLMOps.
-
 skills:
     title: Skills &amp; Proficiency
 
@@ -205,9 +202,6 @@ projects:
       - title: PDS RAG Bot
         link:
         tagline: "RAG system enabling advisers to query insurance Product Disclosure Statements in natural language. Designed with distribution professionals; built on GCP Cloud Run with hybrid retrieval, reranking, and citation grounding."
-      - title: Financial Advice App
-        link:
-        tagline: "LLM tool supporting financial advisers within an AFSL compliance framework, designed with product and compliance stakeholders. Deterministic/AI separation architecture with Tier 1/2 gating, SOA generation, and RG146 guardrails."
       - title: Actuaries Analytical Cookbook
         link: "https://actuariesinstitute.github.io/cookbook/docs/index.html"
         tagline: "Created and maintain a practical reference for actuaries covering Python and R recipes, data analytics techniques, and machine learning methods."
