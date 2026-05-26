@@ -221,6 +221,27 @@ p {
     .item {
       margin-bottom: 15px;
     }
+    .project-tag {
+      display: inline-block;
+      border: 1px solid lighten($theme-color, 25%);
+      border-radius: 3px;
+      padding: 2px 9px;
+      font-size: 13px;
+      background: lighten($theme-color, 45%);
+      color: $text-color;
+      margin-bottom: 5px;
+      &:hover {
+        background: lighten($theme-color, 38%);
+        text-decoration: none;
+      }
+    }
+    .project-tag-nolink {
+      opacity: 0.75;
+    }
+    .project-tagline {
+      font-size: 14px;
+      color: $text-color-secondary;
+    }
   }
 
   .publication-title {

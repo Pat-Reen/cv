@@ -19,16 +19,16 @@
   {% for project in projects.assignments %}
     <div class="item">
 
-      <span class="project-title">
+      <div class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <a class="project-tag" href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
         {% else %}
-        {{ project.title }}
+        <span class="project-tag project-tag-nolink">{{ project.title }}</span>
         {% endif %}
-      </span>
+      </div>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <div class="project-tagline">{{ project.tagline }}</div>
       {% endif %}
 
     </div><!--//item-->
