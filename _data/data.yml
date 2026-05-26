@@ -200,7 +200,7 @@ projects:
     title: Projects & Contributions
     assignments:
       - title: PDS RAG Bot
-        link:
+        link: "https://pds-rag-bot-1012542324626.australia-southeast1.run.app/"
         tagline: "RAG system enabling advisers to query insurance Product Disclosure Statements in natural language. Designed with distribution professionals; built on GCP Cloud Run with hybrid retrieval, reranking, and citation grounding."
       - title: Actuaries Analytical Cookbook
         link: "https://actuariesinstitute.github.io/cookbook/docs/index.html"
